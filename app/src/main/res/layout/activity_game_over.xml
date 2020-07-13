@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game over"
+        android:textSize="70dp"
+        android:scaleY="1.5"
+        android:textStyle="bold"
+        android:textColor="@color/colorRed"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You got"
+        android:textSize="50dp"
+        android:scaleY="1.5"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10 points"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/points"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play again"
+        android:textSize="37dp"
+        android:width="240dp"
+        android:id="@+id/btnPlayAgain"
+        android:layout_marginTop="50dp"/>
+
+</LinearLayout>
